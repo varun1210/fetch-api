@@ -44,7 +44,7 @@ If you have Docker and Git installed, please follow the steps below to run the a
 
 ## Some footnotes
 
-- The application has only been designed to handle the routes and methods specified in the challenge, meaning that sending a request to either an unsupported route OR an unsupported method to a valid route will return an error. 
+- The application has only been designed to handle the routes and methods specified in the challenge, meaning that sending a request to either an unsupported route OR an unsupported method to a valid route will return an error. \n
 Examples: 
   1. Sending a request to `/receipts/xyz` will result in an error, since it is an invalid route.
   2. Sending a `GET` request to `/receipts/process` will result in an error, since `GET` is not a supported method for the route `/receipts/process`.
