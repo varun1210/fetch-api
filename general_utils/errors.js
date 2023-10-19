@@ -1,17 +1,17 @@
 class BadRequestError extends Error {
-    constructor(message) {
-        super(message);
-        this.statusCode = 400;
-        this.name = "BadRequestError";
-    }
+  constructor(message) {
+    super(message);
+    this.statusCode = 400;
+    this.name = "BadRequestError";
+  }
 }
 
 class BaseURLError extends Error {
-    constructor(message) {
-        super(message);
-        this.statusCode = 404;
-        this.name = "BaseURLError"
-    }
+  constructor(message) {
+    super(message);
+    this.statusCode = 404;
+    this.name = "BaseURLError";
+  }
 }
 
-module.exports = { BadRequestError, BaseURLError }
+module.exports = { BadRequestError, BaseURLError };
