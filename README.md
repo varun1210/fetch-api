@@ -7,7 +7,7 @@ Submission of the Receipt Processor challenge by Varun Muppalla (varunmup@buffal
 
 
 
-## Description
+### Description
 
 This repository contains my submission for the [Receipt Processor Challenge](https://github.com/fetch-rewards/receipt-processor-challenge) given by [Fetch Rewards](https://fetch.com/). The requirements and scope of the application are present in the provided hyperlink.
 
@@ -21,7 +21,7 @@ Instructions to run the application are found in the section below.
 
 
 
-## Instructions to Run
+### Instructions to Run
 
 At the very least, Docker and [Git](https://git-scm.com/) are needed to be able to run the application. In case you also have [Docker Compose](https://docs.docker.com/compose/) installed, please refer to the footnotes to run the application with some more ease.
 
@@ -42,7 +42,7 @@ If you have Docker and Git installed, please follow the steps below to run the a
 
 
 
-## Some footnotes
+### Some footnotes
 
 - The application has only been designed to handle the routes and methods specified in the challenge, meaning that sending a request to either an unsupported route OR an unsupported method to a valid route will return an error.  
 Examples: 
