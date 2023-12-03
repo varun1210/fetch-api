@@ -11,7 +11,7 @@ Submission of the Receipt Processor challenge by Varun Muppalla (varunmup@buffal
 
 This repository contains my submission for the [Receipt Processor Challenge](https://github.com/fetch-rewards/receipt-processor-challenge) given by [Fetch Rewards](https://fetch.com/). The requirements and scope of the application are present in the provided hyperlink.
 
-The application has been developed primarily with the use of [Node.js](https://nodejs.org/en) in conjunction with [Express.js](https://expressjs.com/). Per the instructions, it has been containerized using [Docker](https://www.docker.com/). 
+The application has been developed primarily with the use of [Node.js](https://nodejs.org/en) and [Express.js](https://expressjs.com/). Per the instructions, it has been containerized using [Docker](https://www.docker.com/). 
 
 Instructions to run the application are found in the section below.
 
